@@ -1,0 +1,143 @@
+@import "../components/bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: LATO-REGULAR;
+    src: url(../fonts/LATO-REGULAR.TTF);
+}
+
+/* RESET */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+img {
+	max-width: 100%;
+}
+
+body{
+	font-size: 16px;
+	font-family: LATO-REGULAR !important;
+	//background-color: #efefef;
+}
+
+/* Header */
+
+.header-top{
+	background-color: #f49837;
+	color: #fff;
+}
+
+.header-social{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	>p,a{
+		font-size: 23px;
+		color: #fff;
+		>i{
+			margin-top: 15px;
+			padding: 0 5px;
+			&:hover{
+				color: #c26d14;
+			}
+		}
+	}
+}
+
+.header-menu{
+	display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+    border-bottom: 3px solid #f49837;
+}
+
+.logo{
+	display: flex;    
+    justify-content: center;
+}
+
+.menu .nav-link{	
+	font-size: 18px;
+	font-weight: bold;
+	color: #8b9292 !important;
+}
+
+.menu .gacc:hover{
+	padding: 10px;
+	background-color: #008ccc;
+	border-radius: 5px;
+	color: #fff !important;
+}
+
+.menu .atuacao:hover{
+	padding: 10px;
+	background-color: #e68a00;
+	border-radius: 5px;
+	color: #fff !important;
+}
+
+.menu .tratamentos:hover{
+	padding: 10px;
+	background-color: #96be00;
+	border-radius: 5px;
+	color: #fff !important;
+}
+
+.menu .ajuda:hover{
+	padding: 10px;
+	background-color: #9c73bf;
+	border-radius: 5px;
+	color: #fff !important;
+}
+
+.menu .parceiros:hover{
+	padding: 10px;
+	background-color: #d93a37;
+	border-radius: 5px;
+	color: #fff !important;
+}
+
+.menu .contato:hover{
+	padding: 10px;
+	background-color: #666666;
+	border-radius: 5px;
+	color: #fff !important;
+}
+
+.menu .dropdown-item{
+	font-size: 20px;	
+}
+
+.drop-gacc .dropdown-item:hover{
+	background-color: #008ccc;
+	color: #fff;
+}
+
+.drop-atuacao .dropdown-item:hover{
+	background-color: #e68a00;
+	color: #fff;
+}
+
+.drop-tratamentos .dropdown-item:hover{
+	background-color: #96be00;
+	color: #fff;
+}
+
+.drop-ajuda .dropdown-item:hover{
+	background-color: #9c73bf;
+	color: #fff;
+}
+
+
