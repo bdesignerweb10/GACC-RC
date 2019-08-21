@@ -31,19 +31,21 @@
 <body>
 	<header class="header">
 		<div class="container-fluid">
-			<div class="row header-top">
-				<div class="col-sm-9"></div>
+			<div class="row header-top" id="header-top">
+				<div class="col-sm-3 header-contato">
+					<p><i class="fas fa-envelope"></i> contato@gacc-rc.org.br</p>				
+				</div>
+				<div class="col-sm-6"></div>
 				<div class="col-sm-3 header-social">
 					<p>
-						<a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
-						<a href="" target="_blank"><i class="fab fa-instagram"></i></a>
-						<a href="" target="_blank"><i class="fab fa-youtube"></i></a>
+						<a href="https://www.facebook.com/gaccrioclaro/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+						<a href="https://www.instagram.com/gaccrc/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>						
 					</p>
 				</div><!-- col-sm-12-->
 			</div><!-- row -->
-			<div class="row header-menu">
+			<div class="row header-menu" id="header-menu">
 				<div class="col-sm-3 logo">
-					<img src="img/logo.png" alt="Logo Gacc - Rio Claro">
+					<a href="index.php"><img src="img/logo.png" alt="Logo Gacc - Rio Claro"></a>
 				</div>
 				<div class="col-sm-9 menu">
 					<nav class="navbar navbar-expand-lg navbar-light">
@@ -59,8 +61,8 @@
 					          O Gacc
 					        </a>
 					        <div class="dropdown-menu drop-gacc" aria-labelledby="navbarDropdown">
-					          <a class="dropdown-item" href="#">História</a>
-					          <a class="dropdown-item" href="#">O Gacc hoje</a>
+					          <a class="dropdown-item" href="historia.php">História</a>
+					          <a class="dropdown-item" href="gacc-hoje.php">O Gacc hoje</a>
 					          <a class="dropdown-item" href="#">Diretoria</a>
 					          <a class="dropdown-item" href="#">Estatuto</a>
 					          <a class="dropdown-item" href="#">Regimento Interno</a>
@@ -72,10 +74,10 @@
 					          Como atuamos
 					        </a>
 					        <div class="dropdown-menu drop-atuacao" aria-labelledby="navbarDropdown">
-					          <a class="dropdown-item" href="#">Action</a>
-					          <a class="dropdown-item" href="#">Another action</a>
-					          <div class="dropdown-divider"></div>
-					          <a class="dropdown-item" href="#">Something else here</a>
+					          <a class="dropdown-item" href="transporte.php">Transporte</a>
+					          <a class="dropdown-item" href="saude.php">Saúde</a>
+					          <a class="dropdown-item" href="social.php">Social</a>
+					          <a class="dropdown-item" href="musicaterapia.php">Musicaterapia</a>
 					        </div>
 					      </li>
 					      <li class="nav-item dropdown">
@@ -83,10 +85,10 @@
 					          Diagnósticos e tratamentos
 					        </a>
 					        <div class="dropdown-menu drop-tratamentos" aria-labelledby="navbarDropdown">
-					          <a class="dropdown-item" href="#">Prevenção e Sintomas</a>
-					          <a class="dropdown-item" href="#">Tratamento</a>
-					          <a class="dropdown-item" href="#">Cuidados</a>
-					          <a class="dropdown-item" href="#">Direitos</a>					          
+					          <a class="dropdown-item" href="prevencoes-sintomas.php">Prevenção e Sintomas</a>
+					          <a class="dropdown-item" href="tratamento.php">Tratamento</a>
+					          <a class="dropdown-item" href="cuidados.php">Cuidados</a>
+					          <a class="dropdown-item" href="direitos.php">Direitos</a>					          
 					        </div>
 					      </li>
 					      <li class="nav-item dropdown">
@@ -94,17 +96,17 @@
 					         Como ajudar
 					        </a>
 					        <div class="dropdown-menu drop-ajuda" aria-labelledby="navbarDropdown">
-					          <a class="dropdown-item" href="#">Faça sua doação</a>
-					          <a class="dropdown-item" href="#">Projeto Empresa Parceira</a>
-					          <a class="dropdown-item" href="#">Outras formas de ajudar</a>
-					          <a class="dropdown-item" href="#">Seja um voluntário</a>					          
+					          <a class="dropdown-item" href="doacao.php">Faça sua doação</a>
+					          <a class="dropdown-item" href="empresa-parceira.php">Projeto Empresa Parceira</a>
+					          <a class="dropdown-item" href="formas-ajudar.php">Outras formas de ajudar</a>
+					          <a class="dropdown-item" href="seja-voluntario.php">Seja um voluntário</a>					          
 					        </div>
 					      </li>
 					      <li class="nav-item">
 					        <a class="nav-link parceiros" href="#" aria-disabled="true">Parceiros</a>
 					      </li>
 					      <li class="nav-item">
-					        <a class="nav-link contato" href="#" aria-disabled="true">Fale conosco</a>
+					        <a class="nav-link contato" href="contato.php" aria-disabled="true">Fale conosco</a>
 					      </li>
 					    </ul>					    
 					  </div>

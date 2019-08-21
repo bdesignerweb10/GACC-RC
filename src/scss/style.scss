@@ -34,8 +34,12 @@ body{
 /* Header */
 
 .header-top{
-	background-color: #f49837;
+	background-color: #F6AA5B;
 	color: #fff;
+}
+
+.header-top-2{
+	display: none !important;
 }
 
 .header-social{
@@ -55,12 +59,33 @@ body{
 	}
 }
 
+.header-contato{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	>p{
+		 padding-left: 35px;
+    	padding-top: 8px;
+	}
+}
+
 .header-menu{
 	display: flex;
     align-items: center;
     padding: 30px;
     background-color: #fff;
     border-bottom: 3px solid #f49837;
+}
+
+.header-menu-2{
+display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+    border-bottom: 3px solid #f49837;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 }
 
 .logo{
@@ -116,6 +141,10 @@ body{
 	color: #fff !important;
 }
 
+.dropdown-menu {
+	top: 55% !important; 
+ }
+
 .menu .dropdown-item{
 	font-size: 20px;	
 }
@@ -140,4 +169,340 @@ body{
 	color: #fff;
 }
 
+/* Default */
 
+.default{
+	margin: 50px 0;
+}
+
+.margin-default{
+	margin-top: 60px;
+}
+
+.title{
+	font-family: LATO-REGULAR !important;
+	font-size: 23px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+}
+
+.history .title-page{
+	font-weight: bold;
+	color: #008ccc;
+}
+
+.transporte .title-page{
+	font-weight: bold;
+	color: #f49837;
+}
+
+.diagnosticos .title-page{
+	font-weight: bold;
+	color: #96be00;
+}
+
+.ajuda .title-page{
+	font-weight: bold;
+	color: #9c73bf;
+}
+
+.diagnosticos h3,
+.ajuda h3{
+	font-size: 20px;
+	color: #828282;
+}
+
+.history,
+.transporte,
+.diagnosticos,
+.ajuda,
+.contato{
+	margin-bottom: 40px;
+}
+
+.history p,
+.transporte p,
+.diagnosticos p,
+.ajuda p,
+.contato p{
+	text-align: justify;
+}
+
+.border-news{
+	border-top: 3px solid #f49837;
+    width: 225px;
+    margin-top: -11px;
+}
+
+.title-blog{
+	font-family: LATO-REGULAR !important;
+	font-size: 23px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+}
+
+.border-blog{
+	border-top: 3px solid #96be00;
+    width: 92px;
+    margin-top: -11px;
+}
+
+.title-social{
+	font-family: LATO-REGULAR !important;
+	font-size: 23px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+}
+
+.border-social{
+	border-top: 3px solid #008ccc;
+    width: 183px;
+    margin-top: -11px;
+}
+
+.news .card-body a{
+	text-decoration: none;   
+}
+
+.news .btns {
+	display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.news .btn-default{
+	background-color: #f49837;
+    color: #fff;
+    padding: 3px 18px;
+    border-radius: 15px;
+    &:hover{
+    	opacity: 0.8;
+    }
+}
+
+.blog{
+	padding: 10px 0;
+}
+
+.blog a{
+	color: #000;
+}
+
+.btns{
+	display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.btn-blog {
+	background-color: #96be00;
+    color: #fff;
+    padding: 3px 18px;
+    border-radius: 15px;
+    margin: 5px 0;
+    &:hover{
+    	opacity: 0.8;
+    	color: #fff;
+    }
+}
+
+
+/* Empresas Parceira */
+
+.btn-ajuda {
+	background-color: #9c73bf;
+	color: #fff;
+	&:hover{
+		color: #fff;
+		opacity: 0.8;
+	}
+}
+
+.ajuda i{
+	color: #9c73bf;
+}
+
+/* Doação */
+
+.text-message{
+	text-align: center;
+	margin: 30px 0;
+}
+
+.card-doacao{
+	display: flex;
+	align-items: center;
+	>p{
+		font-weight: bold;
+		font-size: 19px;
+    	padding-top: 25px;
+	}
+}
+
+.card-doacao .btn-doacao{
+	border: 3px solid #9c73bf;
+	border-radius: 30px;
+	background-color: #fff !important;
+	color: #9c73bf !important;
+	margin: 0 10px;
+	padding: 12px 60px;
+	&:hover{
+		background-color: #9c73bf !important;
+		color: #fff !important;
+	}
+}
+
+.doacao-valor .card{
+	background-color: #fff;
+	padding: 0 30px;
+	margin: 20px 0;
+}
+
+.doacao-valor .card-body h4{
+	font-weight: bold;
+	text-align: center;
+}
+
+.doacao-valor .card-body .mensal{
+	font-size: 12px;
+	text-align: center;
+}
+
+.doacao-valor .divider{
+	border: 0.5px solid #ccc;
+    margin-bottom: 10px;
+
+}
+
+.doacao-valor .btn-doar{	
+    border-radius: 30px;
+    background-color: #9c73bf !important;
+    color: #fff !important;
+    margin: 10px 0px;
+    padding: 4px 60px;
+    &:hover{
+    	opacity: 0.8;
+    }
+}
+
+/* Contato */
+
+.contato .title-page{
+	font-weight: bold;
+	color: #666666;
+}
+
+.contato-info{
+	background-color: #ABABAB;
+	color: #fff;
+	padding: 35px 20px;
+}
+
+.contato-info iframe{
+	border: 5px solid #fff !important;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.btn-contato {
+	background-color: #666666;
+	color: #fff;
+	&:hover{
+		color: #fff;
+		opacity: 0.8;
+	}
+}
+
+
+/* Footer */
+
+.footer{
+	background-color: #fff;
+	color: #fff;
+}
+
+.doacao{
+	background-color: #9859CD;
+	color: #fff;
+	font-size: 18px;
+	padding: 20px 0;
+}
+
+.btn-doacao{
+	background-color: #f49837;
+	color: #fff;
+	&:hover{
+		color: #fff;
+	}
+}
+
+.footer-menu{
+	margin: 40px 0;
+	padding: 20px 0;
+}
+
+.footer-menu p{
+	font-size: 15px;
+	font-family: LATO-REGULAR !important;
+	padding: 7px;
+}
+
+.footer-title {
+	padding-bottom: 15px;
+    margin-left: 50px;
+    color: #f49837;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-footer{
+	font-size: 15px;
+	padding: 0;
+	margin-left: 50px;
+	font-size: 17px;
+	color: #000;
+	&:hover{
+		color: #f49837;
+	}
+}
+
+.footer-contact{
+	margin-left: 13px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {	
+	.blog-card{
+		height: auto !important;
+	}
+
+	.blog img{
+		width: 100px;
+	}
+
+	.contato-info{
+		margin: 20px 0;
+	}
+
+	.contato-info iframe{
+		width: 331px;
+    	height: auto;    	
+	}
+
+	.footer-menu iframe{
+		width: 331px;
+    	height: auto;
+    	padding: 0 10px;
+	}
+
+	.footer-menu .localizacao{
+		margin-left: 49px !important;
+		margin-top: 20px;
+	}
+
+	.footer-menu .fale-conosco{
+		margin-top: 20px;
+	}
+
+}
