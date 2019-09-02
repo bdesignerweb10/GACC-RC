@@ -15,29 +15,29 @@
 						  <div class="form-row">
 						    <div class="form-group col-md-12">
 						      <label for="nome">Nome</label>
-						      <input type="text" class="form-control" name="nome" id="nome" placeholder="Informe seu nome">
+						      <input type="text" class="form-control" name="nome" id="nome" placeholder="Informe seu nome" required>
 						    </div>
 						    <div class="form-group col-md-12">
 						      <label for="assunto">Assunto</label>
-						      <input type="text" class="form-control" name="assunto" id="assunto" placeholder="Informe o asssunto">
+						      <input type="text" class="form-control" name="assunto" id="assunto" placeholder="Informe o asssunto" required>
 						    </div>
 						    <div class="form-group col-md-12">
 						      <label for="email">E-mail</label>
-						      <input type="email" class="form-control" name="email" id="email" placeholder="Informe seu e-mail">
+						      <input type="email" class="form-control" name="email" id="email" placeholder="Informe seu e-mail" required>
 						    </div>
 						  </div>						  				  
 						  <div class="form-row">
 						    <div class="form-group col-md-6">
 						      <label for="telefone">Telefone</label>
-						      <input type="number" class="form-control" name="telefone" id="telefone">
+						      <input type="tel" class="form-control" name="telefone" id="telefone" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" maxlength="16" placeholder="Telefone" required>
 						    </div>
 						    <div class="form-group col-md-6">
 						      <label for="celular">Celular</label>
-						      <input type="number" class="form-control" name="celular" id="celular">
+						      <input type="tel" class="form-control" name="celular" id="celular" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" maxlength="16" placeholder="Celular" required>
 						    </div>				    
 						  </div>
 						  <div class="form-row">
-						  	<textarea class="form-control" name="mensagem" id="mensagem" cols="30" rows="7" placeholder="Mensagem..."></textarea>
+						  	<textarea class="form-control" name="mensagem" id="mensagem" cols="30" rows="7" placeholder="Mensagem..." required></textarea>
 						  </div>	
 						  <div class="col-sm-12 btns">				  
 						  	<button type="submit" class="btn btn-contato">Enviar</button>

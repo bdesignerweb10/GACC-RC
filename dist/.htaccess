@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^/?$ index.php
+RewriteRule ^historia/?$ historia.php
+RewriteRule ^gacc-hoje/?$ gacc-hoje.php
+RewriteRule ^transporte/?$ transporte.php
+RewriteRule ^contato/?$ contato.php
+
+RewriteRule ^admin/?$ admin/index.php
+RewriteRule ^admin/home/?$ admin/home.php
+RewriteRule ^admin/logout/?$ admin/logout.php

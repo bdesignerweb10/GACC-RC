@@ -19,25 +19,25 @@
 						  <div class="form-row">
 						    <div class="form-group col-md-6">
 						      <label for="inputEmail4">Empresa</label>
-						      <input type="text" class="form-control" name="empresa" id="empresa" placeholder="Informe a empresa">
+						      <input type="text" class="form-control" name="empresa" id="empresa" placeholder="Informe a empresa" required>
 						    </div>
 						    <div class="form-group col-md-6">
 						      <label for="inputPassword4">Responsável</label>
-						      <input type="text" class="form-control" name="responsavel" id="responsavel" placeholder="Informe o responsável">
+						      <input type="text" class="form-control" name="responsavel" id="responsavel" placeholder="Informe o responsável" required>
 						    </div>
 						  </div>
 						  <div class="form-group">
 						    <label for="inputAddress">E-mail</label>
-						    <input type="email" class="form-control" name="email" id="email" placeholder="Informe o E-mail">
+						    <input type="email" class="form-control" name="email" id="email" placeholder="Informe o E-mail" required>
 						  </div>				  
 						  <div class="form-row">
 						    <div class="form-group col-md-6">
 						      <label for="telefone">Telefone</label>
-						      <input type="number" class="form-control" name="telefone" id="telefone">
+						      <input type="tel" class="form-control" name="telefone" id="telefone" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" maxlength="16" placeholder="Telefone" required>
 						    </div>
 						    <div class="form-group col-md-6">
 						      <label for="celular">Celular</label>
-						      <input type="number" class="form-control" name="celular" id="celular">
+						      <input type="tel" class="form-control" name="celular" id="celular" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" maxlength="16" placeholder="Celular" required>
 						    </div>				    
 						  </div>
 						  <div class="col-sm-12 btns">				  

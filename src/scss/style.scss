@@ -284,9 +284,9 @@ display: flex;
 	padding: 10px 0;
 }
 
-.blog a{
+/*.blog a{
 	color: #000;
-}
+}*/
 
 .btns{
 	display: flex;
@@ -304,6 +304,15 @@ display: flex;
     	opacity: 0.8;
     	color: #fff;
     }
+}
+
+.btn-card {
+    border-radius: 50px;
+    color: #fff !important;
+    background-color: #96be00;
+    border-color: #96be00;
+    padding: 2px 20px;
+    margin: 10px 0;
 }
 
 
@@ -332,6 +341,7 @@ display: flex;
 .card-doacao{
 	display: flex;
 	align-items: center;
+	padding: 0 15px;
 	>p{
 		font-weight: bold;
 		font-size: 19px;
@@ -379,7 +389,7 @@ display: flex;
     background-color: #9c73bf !important;
     color: #fff !important;
     margin: 10px 0px;
-    padding: 4px 60px;
+    padding: 4px 42px;
     &:hover{
     	opacity: 0.8;
     }

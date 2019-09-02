@@ -28,17 +28,17 @@
 						<form class="footer-contact">
 						  <div class="form-group row">						    
 						    <div class="col-sm-7 offset-1">
-						      <input type="text" class="form-control col-form-label-sm" id="inputEmail3" placeholder="Nome">
+						      <input type="text" class="form-control col-form-label-sm" id="inputEmail3" placeholder="Nome" required>
 						    </div>
 						  </div>
 						  <div class="form-group row">						    
 						    <div class="col-sm-7 offset-1">
-						      <input type="email" class="form-control col-form-label-sm" id="inputPassword3" placeholder="E-mail">
+						      <input type="email" class="form-control col-form-label-sm" id="inputPassword3" placeholder="E-mail" required>
 						    </div>
 						  </div>
 						  <div class="form-group row">
 						    <div class="col-sm-7 offset-1">
-						      <textarea class="form-control col-form-label-sm" name="" id="" cols="10" rows="2" placeholder="Mensagem..."></textarea>
+						      <textarea class="form-control col-form-label-sm" name="" id="" cols="10" rows="2" placeholder="Mensagem..." required></textarea>
 						    </div>
 						  </div>
 						  <div class="form-group row">
@@ -60,9 +60,12 @@
 		<script src="js/textext.plugin.ajax.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery.tablesorter.min.js" type="text/javascript"></script>
 		<script src="js/jquery.mask.js"></script>
+		<script type="text/javascript"
+		src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js">
+		</script>
 		<script>
 		$(document).on("scroll",function(){
-		    if($(document).scrollTop()>200){ 		        	
+		    if($(document).scrollTop()>300){ 		        	
 		        $("#header-menu").removeClass("header-menu").addClass("header-menu-2");
 		        $("#header-top").removeClass("header-top").addClass("header-top-2");		        	        
 		    } else{
@@ -70,6 +73,10 @@
 		        $("#header-top").removeClass("header-top-2").addClass("header-top");
 		    }
 		});
+		</script>
+		<script>
+			$("#telefone").mask("(00) 0000-0000");
+			$("#celular").mask("(00) 0000-00009");
 		</script>
 	</body>
 </html>

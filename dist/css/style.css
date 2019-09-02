@@ -7252,9 +7252,9 @@ body {
 .blog {
   padding: 10px 0; }
 
-.blog a {
-  color: #000; }
-
+/*.blog a{
+	color: #000;
+}*/
 .btns {
   display: flex;
   justify-content: flex-end;
@@ -7269,6 +7269,14 @@ body {
   .btn-blog:hover {
     opacity: 0.8;
     color: #fff; }
+
+.btn-card {
+  border-radius: 50px;
+  color: #fff !important;
+  background-color: #96be00;
+  border-color: #96be00;
+  padding: 2px 20px;
+  margin: 10px 0; }
 
 /* Empresas Parceira */
 .btn-ajuda {
@@ -7288,7 +7296,8 @@ body {
 
 .card-doacao {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  padding: 0 15px; }
   .card-doacao > p {
     font-weight: bold;
     font-size: 19px;
@@ -7327,7 +7336,7 @@ body {
   background-color: #9c73bf !important;
   color: #fff !important;
   margin: 10px 0px;
-  padding: 4px 60px; }
+  padding: 4px 42px; }
   .doacao-valor .btn-doar:hover {
     opacity: 0.8; }
 

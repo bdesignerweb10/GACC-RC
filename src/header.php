@@ -1,3 +1,6 @@
+<?php 
+	require_once("acts/connect.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
