@@ -50,6 +50,7 @@ gulp.task("minify-php", () => gulp.src('src/acts/*.php', {read: false})
   .pipe(gulp.dest('dist/acts'))
 );
 
+
 /* Apaga tudo que estiver em js e minifica e envia para dist/js */
 gulp.task("js", ['cache:js'], function() {
 	return gulp.src("./src/js/app.js")
@@ -83,6 +84,12 @@ gulp.task("js", ['cache:js'], function() {
  gulp.task("move-libs", function() { 
  	return gulp.src('./src/lib/**') 
  	.pipe(gulp.dest('./dist/lib'))
+ });
+
+  /* move a pasta lib para pasta dist/lib */
+ gulp.task("move-pagseguro", function() { 
+ 	return gulp.src('./src/acts/pagseguro/**') 
+ 	.pipe(gulp.dest('./dist/acts/pagseguro/'))
  });
 
 /* Move todos os arquivos .php do acts para dist/acts */
@@ -186,7 +193,7 @@ gulp.task("server", function() {
 	gulp.watch("./src/components/bootstrap/scss/**/*.scss", ['sass']);
 	gulp.watch("./src/js/**/*.js", ['js']);
 	gulp.watch("./src/admin/js/*.js", ['admin-js']);
-	gulp.watch("./src/acts/*.php", ['minify-php']);
+	gulp.watch("./src/acts/*.php", ['minify-php']);	
 	gulp.watch("./src/**/*.php", ['minify-html']);
 	gulp.watch("./src/acts/*.php", ['acts']);
 	gulp.watch("./src/css/*.css", ['css']);
@@ -198,4 +205,4 @@ gulp.task("server", function() {
 });
 
 /* Inicia todas as tasks do gulp */
-gulp.task("default", ["move-htaccess", "sass", "css", "js", "minify-html" ,"minify-php", "move-js", "move-fonts", "move-libs", "acts", "move-img", "concat-js", "admin-css" ,"move-fonts-adm" ,"minify-html-adm", "sass-adm" ,"minify-php-adm", "move-img-adm" ,"admin-js" ,"server"]);
+gulp.task("default", ["move-htaccess", "sass", "css", "js", "minify-html" ,"minify-php" ,"move-js", "move-fonts", "move-libs", "move-pagseguro" ,"acts", "move-img", "concat-js", "admin-css" ,"move-fonts-adm" ,"minify-html-adm", "sass-adm" ,"minify-php-adm", "move-img-adm" ,"admin-js" ,"server"]);

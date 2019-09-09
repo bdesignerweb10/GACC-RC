@@ -16,6 +16,20 @@
 				<p>Motivadas pela crescente demanda por transporte aos centros oncológicos da região, o GACC adquiriu uma Kombi, sendo este o 1º veículo a iniciar o que hoje é a principal missão da Instituição.</p> 
 				<p>Devido à qualidade do trabalho realizado, novas fontes de recursos foram alcançadas, assim como outros serviços gratuitos foram disponibilizados aos assistidos, permitindo que a Instituição ganhasse cada vez mais notoriedade em Rio Claro.</p>
 			</div>
+			<div class="col-sm-12 gallery">
+				<a class="example-image-link" href="img/historia/historia (12).jpg" data-lightbox="example-set"><img class="example-image" src="img/historia/historia (12).jpg" width="150" alt=""/></a>
+				<a class="example-image-link" href="img/historia/historia (2).jpg" data-lightbox="example-set"><img class="example-image" src="img/historia/historia (2).jpg" width="150" alt=""/></a>
+				<a class="example-image-link" href="img/historia/historia (3).jpg" data-lightbox="example-set"><img class="example-image" src="img/historia/historia (3).jpg" width="150" alt=""/></a>
+				<a class="example-image-link" href="img/historia/historia (4).jpg" data-lightbox="example-set"><img class="example-image" src="img/historia/historia (4).jpg" width="150" alt=""/></a>
+				<a class="example-image-link" href="img/historia/historia (5).jpg" data-lightbox="example-set"><img class="example-image" src="img/historia/historia (5).jpg" width="150" alt=""/></a>
+				<a class="example-image-link" href="img/historia/historia (6).jpg" data-lightbox="example-set"><img class="example-image" src="img/historia/historia (6).jpg" width="150" alt=""/></a>
+				<a class="example-image-link" href="img/historia/historia (7).jpg" data-lightbox="example-set"><img class="example-image" src="img/historia/historia (7).jpg" width="150" alt=""/></a>
+				<a class="example-image-link" href="img/historia/historia (8).jpg" data-lightbox="example-set"><img class="example-image" src="img/historia/historia (8).jpg" width="150" alt=""/></a>
+				<a class="example-image-link" href="img/historia/historia (1).jpg" data-lightbox="example-set"><img class="example-image" src="img/historia/historia (1).jpg" width="150" alt=""/></a>
+				<a class="example-image-link" href="img/historia/historia (11).jpg" data-lightbox="example-set"><img class="example-image" src="img/historia/historia (11).jpg" width="150" alt=""/></a>
+				<a class="example-image-link" href="img/historia/historia (10).jpg" data-lightbox="example-set"><img class="example-image" src="img/historia/historia (10).jpg" width="150" alt=""/></a>
+				
+			</div><!-- col-sm-12-->
 		</div><!-- row -->
 	</div><!-- container-->
 </main>

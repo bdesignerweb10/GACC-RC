@@ -2,7 +2,17 @@
 
 @font-face {
     font-family: LATO-REGULAR;
-    src: url(../fonts/LATO-REGULAR.TTF);
+    src: url(../fonts/LATO-REGULAR.ttf);
+}
+
+@font-face{
+	font-family: WeekdaysRomanSlant;
+	src: url(../fonts/WeekdaysRomanSlant.ttf);
+}
+
+@font-face{
+	font-family: just-tell-me-what-regular;
+	src: url(../fonts/just-tell-me-what-regular.otf);
 }
 
 /* RESET */
@@ -21,9 +31,9 @@ a:hover{
 	cursor: pointer;
 }
 
-img {
+/*img {
 	max-width: 100%;
-}
+}*/
 
 body{
 	font-size: 16px;
@@ -31,9 +41,9 @@ body{
 	//background-color: #efefef;
 }
 
-/* Header */
+/*Header - top*/
 
-.header-top{
+.header-top{	
 	background-color: #F6AA5B;
 	color: #fff;
 }
@@ -69,106 +79,92 @@ body{
 	}
 }
 
-.header-menu{
-	display: flex;
-    align-items: center;
-    padding: 30px;
-    background-color: #fff;
-    border-bottom: 3px solid #f49837;
+/* Header Menu */
+.header{
+	border-bottom: 3px solid #f49837;
 }
 
-.header-menu-2{
-display: flex;
-    align-items: center;
-    padding: 30px;
-    background-color: #fff;
-    border-bottom: 3px solid #f49837;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
+.header-dir{
+	background: url(../img/back-dire.png) no-repeat;
+	background-position: center;
 }
 
-.logo{
-	display: flex;    
-    justify-content: center;
+.header-esq{
+	background: url(../img/back-esqu.png) no-repeat;
+	background-position: center;
 }
 
-.menu .nav-link{	
+.logo img{
+	padding: 66px 113px;
+}
+
+.header-menu {
+	padding:14px 126px;
+}
+
+.header-menu .menu{
+	padding-top: 13px;
+}
+
+.header-menu nav{
 	font-size: 18px;
-	font-weight: bold;
-	color: #8b9292 !important;
-}
-
-.menu .gacc:hover{
-	padding: 10px;
-	background-color: #008ccc;
-	border-radius: 5px;
-	color: #fff !important;
-}
-
-.menu .atuacao:hover{
-	padding: 10px;
-	background-color: #e68a00;
-	border-radius: 5px;
-	color: #fff !important;
-}
-
-.menu .tratamentos:hover{
-	padding: 10px;
-	background-color: #96be00;
-	border-radius: 5px;
-	color: #fff !important;
-}
-
-.menu .ajuda:hover{
-	padding: 10px;
-	background-color: #9c73bf;
-	border-radius: 5px;
-	color: #fff !important;
-}
-
-.menu .parceiros:hover{
-	padding: 10px;
-	background-color: #d93a37;
-	border-radius: 5px;
-	color: #fff !important;
-}
-
-.menu .contato:hover{
-	padding: 10px;
-	background-color: #666666;
-	border-radius: 5px;
-	color: #fff !important;
+    font-weight: bold;
+    color: #8b9292 !important;
 }
 
 .dropdown-menu {
-	top: 55% !important; 
- }
+    top: 55% !important;
+}
 
-.menu .dropdown-item{
+.header-menu .dropdown-item{
 	font-size: 20px;	
 }
 
-.drop-gacc .dropdown-item:hover{
-	background-color: #008ccc;
-	color: #fff;
+.frase{
+	text-align: center;
+    padding-left: 90px;
+    font-size: 35px;
+    margin-top: 51px;
+    font-family: just-tell-me-what-regular !important;
+    text-transform: uppercase;
 }
 
-.drop-atuacao .dropdown-item:hover{
-	background-color: #e68a00;
-	color: #fff;
+.header-menu .gacc:hover{
+	background: url(../img/hover-gacc.png) no-repeat;
+	background-position: bottom;
+	padding-bottom: 9px;
 }
 
-.drop-tratamentos .dropdown-item:hover{
-	background-color: #96be00;
-	color: #fff;
+.header-menu .atuacao:hover{
+	background: url(../img/hover-atuamos.png) no-repeat;
+	background-position: bottom;
+	padding-bottom: 9px;
 }
 
-.drop-ajuda .dropdown-item:hover{
-	background-color: #9c73bf;
-	color: #fff;
+.header-menu .tratamentos:hover{
+	background: url(../img/hover-diagnostico.png) no-repeat;
+	background-position: bottom;
+	padding-bottom: 9px;
 }
 
+.header-menu .ajuda:hover{
+	background: url(../img/hover-ajuda.png) no-repeat;
+	background-position: bottom;
+	padding-bottom: 9px;
+}
+
+
+.header-menu .parceiros:hover{
+	background: url(../img/hover-parceiro.png) no-repeat;
+	background-position: bottom;
+	padding-bottom: 9px;
+}
+
+.header-menu .contato:hover{
+	background: url(../img/hover-contato.png) no-repeat;
+	background-position: bottom;
+	padding-bottom: 9px;
+}
 /* Default */
 
 .default{
@@ -316,6 +312,53 @@ display: flex;
 }
 
 
+/* Video */
+
+.video{
+	background-color: #9859CD;
+	padding: 20px;
+    margin-bottom: 30px;
+}
+
+.video h3{
+	color: #fff;
+	font-family: LATO-REGULAR !important;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+
+.media{
+	display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.media iframe{
+	border: 3px solid #e2e2e2;
+	border-radius: 5px;
+}
+
+/* Galeria */
+
+.gallery img{
+	padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 3px;
+}
+
+.parceiros-gallery img{
+	padding: 5px !important;   
+    margin: 5px !important;
+}
+
+/* Saude */
+
+.saude .img-thumbnail{
+	margin: 6px 0;
+}
+
 /* Empresas Parceira */
 
 .btn-ajuda {
@@ -355,11 +398,11 @@ display: flex;
 	background-color: #fff !important;
 	color: #9c73bf !important;
 	margin: 0 10px;
-	padding: 12px 60px;
-	&:hover{
+	padding: 12px 60px;	
+	/*&:active{
 		background-color: #9c73bf !important;
 		color: #fff !important;
-	}
+	}*/
 }
 
 .doacao-valor .card{
@@ -393,6 +436,10 @@ display: flex;
     &:hover{
     	opacity: 0.8;
     }
+}
+
+.doacao-valor ::-webkit-input-placeholder{
+	font-size: 14px;
 }
 
 /* Contato */

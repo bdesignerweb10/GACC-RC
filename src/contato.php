@@ -47,10 +47,10 @@
 				</div><!-- card-->
 			</div><!-- col-sm-6-->
 			<div class="col-sm-6 contato-info">
-				<p><i class="fas fa-envelope"></i><strong> contato@gacc-rc.org.br</strong></p>
+				<p><i class="fas fa-envelope"></i> contato@gacc-rc.org.br</p>
 				<p><i class="fas fa-phone"></i> (19) 3534-5612</p>
-				<p><i class="fas fa-phone"></i> (19) 9-9621-9518</p>
-				<p><i class="fas fa-map-marker-alt"></i> R. Quatro, 915 - Centro, Rio Claro - SP, 13500-030</p>
+				<p><i class="fas fa-phone"></i> (19) 99621-9518</p>
+				<p><i class="fas fa-map-marker-alt"></i> Av P17, 253, Vila Paulista</p>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.369362529507!2d-47.55293228557301!3d-22.41511952614544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7da410b7ba4f7%3A0x1a0fbb7b3869db63!2sAv.+P+17%2C+253+-+Vila+Paulista%2C+Rio+Claro+-+SP%2C+13506-827!5e0!3m2!1spt-BR!2sbr!4v1566406752733!5m2!1spt-BR!2sbr" width="540" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div><!-- col-sm-6-->
 		</div><!-- row -->

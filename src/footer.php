@@ -6,7 +6,7 @@
 						<h2>Faça sua doação agora mesmo</h2>						
 					</div>
 					<div class="col-sm-3">
-						<a href="doacao.php" class="btn btn-lg btn-doacao">Doar agora para o GACC</a>
+						<a href="doacao.php" class="btn btn-lg btn-doacao">Doar para o GACC</a>
 					</div>
 				</div><!-- row -->
 				<div class="row footer-menu">
@@ -60,6 +60,7 @@
 		<script src="js/textext.plugin.ajax.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery.tablesorter.min.js" type="text/javascript"></script>
 		<script src="js/jquery.mask.js"></script>
+		<script src="js/lightbox-plus-jquery.min.js"></script>
 		<script type="text/javascript"
 		src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js">
 		</script>

@@ -37,31 +37,32 @@
 			<div class="row header-top" id="header-top">
 				<div class="col-sm-3 header-contato">
 					<p><i class="fas fa-envelope"></i> contato@gacc-rc.org.br</p>				
-				</div>
-				<div class="col-sm-6"></div>
+				</div>				
+				<div class="col-sm-6"></div>				
 				<div class="col-sm-3 header-social">
 					<p>
 						<a href="https://www.facebook.com/gaccrioclaro/" target="_blank"><i class="fab fa-facebook-square"></i></a>
 						<a href="https://www.instagram.com/gaccrc/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>						
 					</p>
-				</div><!-- col-sm-12-->
-			</div><!-- row -->
-			<div class="row header-menu" id="header-menu">
-				<div class="col-sm-3 logo">
-					<a href="index.php"><img src="img/logo.png" alt="Logo Gacc - Rio Claro"></a>
 				</div>
-				<div class="col-sm-9 menu">
+			</div><!-- row -->
+			<div class="row">				
+				<div class="col-sm-2 header-esq logo">
+					<a href="index.php"><img src="img/logo.png"></a>
+				</div>				
+				<div class="col-sm-8 header-menu">
+					<h2 class="frase">Grupo de apoio à criança com câncer</h2>
 					<nav class="navbar navbar-expand-lg navbar-light">
 					  <a class="navbar-brand" href="#"></a>
 					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					    <span class="navbar-toggler-icon"></span>
 					  </button>
 
-					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					  <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
 					    <ul class="navbar-nav mr-auto">
 					      <li class="nav-item dropdown">
 					        <a class="nav-link dropdown-toggle gacc" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					          O Gacc
+					          O GACC
 					        </a>
 					        <div class="dropdown-menu drop-gacc" aria-labelledby="navbarDropdown">
 					          <a class="dropdown-item" href="historia.php">História</a>
@@ -80,12 +81,12 @@
 					          <a class="dropdown-item" href="transporte.php">Transporte</a>
 					          <a class="dropdown-item" href="saude.php">Saúde</a>
 					          <a class="dropdown-item" href="social.php">Social</a>
-					          <a class="dropdown-item" href="musicaterapia.php">Musicaterapia</a>
+					          <a class="dropdown-item" href="musicaterapia.php">Musicoterapia</a>
 					        </div>
 					      </li>
 					      <li class="nav-item dropdown">
 					        <a class="nav-link dropdown-toggle tratamentos" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					          Diagnósticos e tratamentos
+					          Diagnóstico e tratamento
 					        </a>
 					        <div class="dropdown-menu drop-tratamentos" aria-labelledby="navbarDropdown">
 					          <a class="dropdown-item" href="prevencoes-sintomas.php">Prevenção e Sintomas</a>
@@ -102,19 +103,22 @@
 					          <a class="dropdown-item" href="doacao.php">Faça sua doação</a>
 					          <a class="dropdown-item" href="empresa-parceira.php">Projeto Empresa Parceira</a>
 					          <a class="dropdown-item" href="formas-ajudar.php">Outras formas de ajudar</a>
-					          <a class="dropdown-item" href="seja-voluntario.php">Seja um voluntário</a>					          
+					          <a class="dropdown-item" href="seja-voluntario.php">Seja voluntário</a>					          
 					        </div>
 					      </li>
+					      <!--<li class="nav-item">
+					        <a class="nav-link parceiros" href="parceiros.php" aria-disabled="true">Parceiros</a>
+					      </li>-->
 					      <li class="nav-item">
-					        <a class="nav-link parceiros" href="#" aria-disabled="true">Parceiros</a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link contato" href="contato.php" aria-disabled="true">Fale conosco</a>
+					        <a class="nav-link contato" href="contato.php" aria-disabled="true">Contato</a>
 					      </li>
 					    </ul>					    
 					  </div>
-					</nav>	
-				</div><!--col-sm--8-->
-			</div><!-- row -->
+					</nav>
+				</div>				
+				<div class="col-sm-2 header-dir">
+					
+				</div>
+			</div><!-- row -->			
 		</div><!-- container -->
 	</header>

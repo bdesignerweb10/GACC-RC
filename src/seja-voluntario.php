@@ -5,6 +5,9 @@
 	<div class="container">
 		<div class="row ajuda">
 			<div class="col-sm-12 margin-default">
+				<img src="img/seja-voluntario.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-12 margin-default">
 				<h1 class="title-page">Seja um Voluntário</h1>
 			</div>
 			<div class="col-sm-12">

@@ -10,7 +10,7 @@
 			<div class="col-sm-12">				
 				<p>A consciência cidadã se tornou mais presente na vida das pessoas. De um lado colaboradores cada vez mais engajados e participativos e do outro, consumidores exigentes que se sentem mais confortáveis comprando produtos que geram algum impacto para uma causa social.</p>
 				<p>Diante desse cenário, o diferencial das empresas deixou de ser o preço e passou a ser o relacionamento com a sociedade. O quanto sua empresa se preocupa com a comunidade em que está inserida? </p>
-				<p>Pensando nisso, o GACC desenvolveu o projeto “Empresa Parceira Patrocinadora”, uma iniciativa que se unir à empresas com valores éticos e humanitários, que se sensibilizam com a missão da Instituição e, sobretudo, confiam em um futuro repleto de oportunidades às crianças atendidas.</p>
+				<p>Pensando nisso, o GACC desenvolveu o projeto “Empresa Parceira”, uma iniciativa que visa aproximar-se de empresas com valores éticos e humanitários, que se sensibilizam com a missão da Instituição e, sobretudo, confiam em um futuro repleto de oportunidades às crianças atendidas.</p>
 				<p><strong>Faça parte!</strong></p>
 				<p>Preencha os campos abaixo para receber a proposta detalhada e todos os benefícios.</p>
 				<div class="card">

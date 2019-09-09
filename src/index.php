@@ -31,8 +31,18 @@
 			</div>
 		</div><!-- row -->		
 	</div><!-- container-->
-	<div class="container">
-		<div class="row default">		
+	<div class="container-fluid video">
+		<div class="row">	
+			<div class="col-sm-12">
+				<h3 class="title-page" style="text-align: center;">Conheça mais sobre os projetos e serviços oferecidos pelo GACC</h3>
+			</div>
+
+			<div class="col-sm-12 media ">				
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/KV16f_tXMdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div><!--col-sm-12-->
+		</div>	
+	</div>		
+	<div class="container">			
 		<div class="col-sm-8">
 			<h2 class="title">Últimas notícias</h2>
 			<p class="border-news"></p>

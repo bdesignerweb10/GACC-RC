@@ -5,24 +5,27 @@
 	<div class="container">
 		<div class="row ajuda">
 			<div class="col-sm-12 margin-default">
+				<img src="img/doacao_alimentos.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-12 margin-default">
 				<h1 class="title-page">Outras Formas de Ajudar</h1>
 			</div>
 			<div class="col-sm-12">
 				<p>O GACC possui inúmeras iniciativas para garantir a continuidade e melhoria dos serviços prestados gratuitamente às famílias assistidas.</p>
-				<h3>DOAÇÃO DE ALIMENTOS</h3>
-				<p>Entregamos todo mês cerca de 25 cestas básicas a partir dos alimentos que recebemos. Por isso, ficaremos imensamente agradecidos se puder doar algum dos itens: arroz, feijão, açúcar, óleo, pó de café, achocolatado, bolacha doce, bolacha salgada, macarrão, molho de tomate, fubá, farinha de trigo e leite.</p>
-				<h3>DOAÇÃO DE SUPLEMENTOS ALIMENTARES</h3>
-				<p>Devido à falta de apetite e perda de peso, algumas crianças, sob orientação médica, utilizam suplementos alimentares. Fazemos uso dos seguintes suplementos: Pediasure, Nutren, Sustagen e Ensure.</p>
-				<h3>DOAÇÃO DE BENS MATERIAIS</h3>
-				<p>Todo mês nós realizamos um bazar em nossa sede. Vendemos roupas, acessórios, calçados, brinquedos, eletroeletrônicos e eletro portáteis. Aceitamos a doação desses itens em bom estado. Se preferir, podemos retirar sua doação. Gentileza solicitar a retirada pelo telefone: <strong>(19) 3534.5612</strong>.</p>
+				<p><strong>DOAÇÃO DE ALIMENTOS:</strong>
+				Entregamos todo mês cerca de 25 cestas básicas a partir dos alimentos que recebemos. Por isso, ficaremos imensamente agradecidos se puder doar algum dos itens: arroz, feijão, açúcar, óleo, pó de café, achocolatado, bolacha doce, bolacha salgada, macarrão, molho de tomate, fubá, farinha de trigo e leite.</p>
+				<p><strong>DOAÇÃO DE SUPLEMENTOS ALIMENTARES:</strong>
+				Devido à falta de apetite e perda de peso, algumas crianças, sob orientação médica, utilizam suplementos alimentares. Fazemos uso dos seguintes suplementos: Pediasure, Nutren, Sustagen e Ensure.</p>
+				<p><strong>DOAÇÃO DE BENS MATERIAIS:</strong>
+				Todo mês nós realizamos um bazar em nossa sede. Vendemos roupas, acessórios, calçados, brinquedos, eletroeletrônicos e eletro portáteis. Aceitamos a doação desses itens em bom estado. Se preferir, podemos retirar sua doação. Gentileza solicitar a retirada pelo telefone: <strong>(19) 3534.5612</strong>.</p>
 				<p class="text-info">OBS: por questão de espaço, não coletamos doações de itens de grande porte. Pedimos a compreensão de todos.</p>
-				<h3>GACC EM FESTA</h3>
-				<p>Ganhar presentes é muito bom, mas poder compartilhá-los e ajudar outras pessoas é melhor ainda!
+				<p><strong>GACC EM FESTA</strong>
+				Ganhar presentes é muito bom, mas poder compartilhá-los e ajudar outras pessoas é melhor ainda!
 Aniversário, casamento, bodas, enfim, todo evento é uma oportunidade para presentear quem mais precisa. </p>
 				<p>Você pode angariar donativos ou recursos financeiros e revertê-los integralmente à nossa Instituição. </p>
 				<p>Ficamos a disposição para ajudar na divulgação do seu evento e no suporte que precisar.</p>
-				<h3>TIVE UMA IDEIA PRO GACC!</h3>
-				<p>Pensou em alguma iniciativa para nossa Instituição? Maravilha! Conte-nos mais sobre sua ideia.</p>
+				<p><strong>TIVE UMA IDEIA PRO GACC!</strong>
+				Pensou em alguma iniciativa para nossa Instituição? Maravilha! Conte-nos mais sobre sua ideia.</p>
 				<div class="card">
   					<div class="card-body">
 						<form>
