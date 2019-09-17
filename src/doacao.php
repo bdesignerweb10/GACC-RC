@@ -9,10 +9,11 @@
 			</div>
 			<div class="col-sm-12 margin-default">
 				<h2 class="title-page" style="text-align: center;">“Os cabelos podem cair, mas ainda sobrará um fio. De esperança”</h2>
-			</div>
+			</div>			
 			<div class="col-sm-12">
 				<div class="card card-doacao">
 					<p style="text-align: center;">Doando o valor referente ao pedágio de uma viagem,<br /> você contribuirá para que nossas crianças deem mais um passo em direção à cura.</p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/qUFdZRxv3SU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				  	<div class="card-body">
 				  		<form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="POST">
 				  			<button name="tipo" value="0" class="btn btn-lg btn-doacao">Doação Pontual</button>
@@ -28,12 +29,17 @@
 				  			<div class="card">
 				  			<?php 
 							  	if ($tipo == 0) {
-							  		$url = 'acts/pagseguro/examples/compra/lightbox.php';
+							  		$urlp12 = 'acts/pagseguro/examples/compra/lightbox.php';
+							  		$urlp30 = 'acts/pagseguro/examples/compra/lightbox.php';
+							  		$urlp51 = 'acts/pagseguro/examples/compra/lightbox.php';
+							  		$urlpv = 'acts/pagseguro/examples/compra/lightbox.php';
 							  	} else {
-							  		$url = 'www.google.com';
+							  		$urlp12 = 'http://pag.ae/7Vdhqdiga';
+							  		$urlp30 = 'http://pag.ae/7Vedwq4-q';
+							  		$urlp51 = 'http://pag.ae/7VedCaMm5';
 							  	}
 							  ?>	
-				  			<form action="<?php echo $url; ?>" method="post">		
+				  			<form action="<?php echo $urlp12; ?>" method="post">		
 							  <div class="card-body">
 							    <h4>R$12,00</h4>	
 							    <input type="hidden" name="valor" id="valor" value="12.00" class="form-control mask-money">						    
@@ -46,7 +52,7 @@
 				  		</div>
 				  		<div class="col-sm-3">
 				  			<div class="card">
-				  			<form action="<?php echo $url; ?>" method="post">	
+				  			<form action="<?php echo $urlp30; ?>" method="post">	
 							  <div class="card-body">
 							    <h4>R$30,00</h4>		
 							    <input type="hidden" name="valor" id="valor" value="30.00" class="form-control mask-money">						    
@@ -59,7 +65,7 @@
 				  		</div>
 				  		<div class="col-sm-3">
 				  			<div class="card">
-				  			<form action="<?php echo $url; ?>" method="post">	
+				  			<form action="<?php echo $urlp51; ?>" method="post">	
 							  <div class="card-body">
 							    <h4>R$51,00</h4>
 							    <input type="hidden" name="valor" id="valor" value="51.00" class="form-control mask-money">								    
@@ -72,7 +78,7 @@
 				  		</div>
 				  		<div class="col-sm-3">
 				  			<div class="card" style="height: 213px;">
-				  			  <form action="acts/pagseguro/examples/compra/lightbox.php" method="post">	
+				  			  <form action="<?php echo $urlp51; ?>" method="post">	
 								  <div class="card-body">							  	
 								    <div class="input-group">
 								    	<div class="input-group-prepend">

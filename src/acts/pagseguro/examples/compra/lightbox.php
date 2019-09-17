@@ -24,10 +24,10 @@ $pagseguro->adicionarItem('DOA0001', 'Doar', $valor, 1);
 //$pagseguro->adicionarItem('ITEM0002', 'Item 2', 15.50, 1);
 
 //JavaScript caso a compra seja realizada (OPCIONAL)
-$success = "window.location.href='obrigado.php'";
+$success = "window.location.href='../../../../obrigado.php'";
 
 //JavaScript caso o lightbox seja fechado sem concluir a compra (OPCIONAL)
-$abort = "window.location.href='index.php'";
+$abort = "window.location.href='../../../../index.php'";
 
 try{
     $jsLightbox = $pagseguro->gerarLightbox($success, $abort);

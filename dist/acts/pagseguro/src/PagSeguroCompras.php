@@ -285,7 +285,7 @@ class PagSeguroCompras extends PagSeguroBase {
 				</script>";
 
 			//Parcelas de cartão
-			$javascript['cartao_parcelamento'] = "
+			/*$javascript['cartao_parcelamento'] = "
 			<script type='text/javascript'>
 				function PagSeguroAtualizaParcela() {
 					PagSeguroBuscaBandeira().then(bandeira => {
@@ -309,7 +309,7 @@ class PagSeguroCompras extends PagSeguroBase {
 					});
 				}
 				PagSeguroAtualizaParcela();
-			</script>";
+			</script>";*/
 
 			//Botão para concluir a compra
 			$javascript['formas_pagamento'] .= "
@@ -737,7 +737,7 @@ class PagSeguroCompras extends PagSeguroBase {
 	/**
 	 *  Adiciona o Endereço do Cliente nas Compras com Checkout via cartão
 	 */
-	public function setEnderecoCliente($rua, $numero, $complemento, $bairro, $cidade, $estado, $cep) {
+	/*public function setEnderecoCliente($rua, $numero, $complemento, $bairro, $cidade, $estado, $cep) {
 		$this->checkoutTransparente['cartao']['billingAddressStreet'] = $rua;
 		$this->checkoutTransparente['cartao']['billingAddressNumber'] = $numero;
 		$this->checkoutTransparente['cartao']['billingAddressComplement'] = $complemento;
@@ -747,27 +747,27 @@ class PagSeguroCompras extends PagSeguroBase {
 		$this->checkoutTransparente['cartao']['billingAddressPostalCode'] = $cep;
 
 		return $this;
-	}
+	}*/
 
 	/**
 	 * Informa a quantidade de parcelas sem juros
 	 */
-	public function setParcelasSemJuros($qt) {
+	/*public function setParcelasSemJuros($qt) {
 		$this->checkoutTransparente['cartao']['noInterestInstallmentQuantity'] = $qt;
-	}
+	}*/
 
 	/**
 	 * Cadastra o valor da parcela
 	 * @param $quantidade int 
 	 * @param $valorParcela number valor das parcelas
 	 */
-	public function setParcelas($quantidade, $valorParcela, $parcelasSemJuros = null) {
+	/*public function setParcelas($quantidade, $valorParcela, $parcelasSemJuros = null) {
 		$this->checkoutTransparente['cartao']['installmentQuantity'] = $quantidade;
 		$this->checkoutTransparente['cartao']['installmentValue'] = number_format($valorParcela, 2, '.', '');
 		if ($parcelasSemJuros != null)
 			$this->checkoutTransparente['cartao']['noInterestInstallmentQuantity'] = $parcelasSemJuros;
 		return $this;
-	}
+	}*/
 
 	/**
 	 * Cadastra o token do Cartão

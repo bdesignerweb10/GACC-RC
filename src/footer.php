@@ -10,48 +10,93 @@
 					</div>
 				</div><!-- row -->
 				<div class="row footer-menu">
-					<div class="col-sm-3">
-						<h4 class="footer-title">Como ajudar ?</h4>
+					<div class="col-sm-4 logo-footer">
+						<img src="img/logo-footer.png">
 						<nav class="nav flex-column">				
-							<a class="nav-link nav-footer" href="doacao.php">Faça sua doação</a>
-							<a class="nav-link nav-footer" href="empresa-parceira.php">Projeto Empresa Parceira</a>
-							<a class="nav-link nav-footer" href="formas-ajudar.php">Outras formas de ajudar</a>
-							<a class="nav-link nav-footer" href="seja-voluntario.php">Seja um voluntário</a>
+							<a class="nav-link nav-footer" href=""><i class="fas fa-envelope"></i> contato@gacc-rc.org.br</a>
+							<a class="nav-link nav-footer" href=""><i class="fas fa-phone"></i> (19) 3534-5612 / (19) 99621-9518</a>							
+							<a class="nav-link nav-footer" href="contato.php"><i class="fas fa-map-marker-alt"></i> Av P17, 253, Vila Paulista - Rio Claro/SP</a>
+							<p class="social-footer">
+								<a href="https://www.facebook.com/gaccrioclaro/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+								<a href="https://www.instagram.com/gaccrc/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>
+								<a href=""><i class="fab fa-youtube"></i></a>						
+							</p>
 						</nav>
 					</div>
-					<div class="col-sm-5">
-					<h4 class="footer-title localizacao" style="margin-left: 0;">Localização</h4>	
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.369362529507!2d-47.552932285573036!3d-22.41511952614544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7da410b7ba4f7%3A0x1a0fbb7b3869db63!2sAv.+P+17%2C+253+-+Vila+Paulista%2C+Rio+Claro+-+SP%2C+13506-827!5e0!3m2!1spt-BR!2sbr!4v1566330453070!5m2!1spt-BR!2sbr" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<div class="col-sm-4">
+					<h4 class="footer-title">Links Uteis</h4>	
+						<nav class="nav flex-column">				
+							<a class="nav-link nav-footer" href="gacc.php">GACC</a>
+							<a class="nav-link nav-footer" href="como-atuamos.php">Como Atuamos</a>
+							<a class="nav-link nav-footer" href="doacao.php">Faça sua doação</a>
+							<a class="nav-link nav-footer" href="empresa-parceira.php">Empresa Parceira</a>
+							<a class="nav-link nav-footer" href="formas-ajudar.php">Outras formas de ajudar</a>
+						</nav>
 					</div>	
 					<div class="col-sm-4">
-						<h4 class="footer-title fale-conosco">Fale Conosco</h4>
-						<form class="footer-contact">
-						  <div class="form-group row">						    
-						    <div class="col-sm-7 offset-1">
-						      <input type="text" class="form-control col-form-label-sm" id="inputEmail3" placeholder="Nome" required>
-						    </div>
-						  </div>
-						  <div class="form-group row">						    
-						    <div class="col-sm-7 offset-1">
-						      <input type="email" class="form-control col-form-label-sm" id="inputPassword3" placeholder="E-mail" required>
-						    </div>
-						  </div>
-						  <div class="form-group row">
-						    <div class="col-sm-7 offset-1">
-						      <textarea class="form-control col-form-label-sm" name="" id="" cols="10" rows="2" placeholder="Mensagem..." required></textarea>
-						    </div>
-						  </div>
-						  <div class="form-group row">
-						    <div class="col-sm-7 offset-1">
-						      <button type="submit" class="btn btn-sm btn-doacao">Enviar</button>
-						    </div>
-						  </div>
-						</form>
-					</div>					
+					<h4 class="footer-title">Certificações</h4>	
+						<nav class="nav flex-column">
+							<a class="nav-link nav-footer" href="http://cebas.mec.gov.br/" target="_blank">CEBAS</a>
+							<a class="nav-link nav-footer" href="https://www.fartura.sp.gov.br/transparencia/osaaf/41" target="_blank">CMDCA</a>
+						</nav>
+					</div>								
 				</div><!-- row-->
+				<div class="row fix">
+					<div class="contato-fix" data-toggle="modal" data-target="#exampleModal">
+						<i class="far fa-envelope"></i>
+					</div>
+				</div>
+				<div class="row copy">
+					<div class="col-sm-4">
+						<p>Todos os direitos reservados &copy; 2019</p>
+					</div>
+					<div class="col-sm-4"></div>
+					<div class="col-sm-4">
+						<p><i class="fas fa-laptop-code"></i> Desenvolvido por: <span>Bruno Gomes</span> <br> <i class="fas fa-mobile-alt"></i> (19) 99897-0090</p>
+					</div>
+				</div>
 			</div><!-- container -->
-		</footer>
-		<p style="text-align: center;">Todos os direitos reservados &copy; 2019</p>
+		</footer>		
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header modal-contact">
+		        <h5 class="modal-title" id="exampleModalLabel">Envie-nos uma mensagem</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		      	<form class="footer-contact">
+				  <div class="form-group row">						    
+				    <div class="col-sm-10 offset-1">
+				      <input type="text" class="form-control col-form-label-sm" id="inputEmail3" placeholder="Nome" required>
+				    </div>
+				  </div>
+				  <div class="form-group row">						    
+				    <div class="col-sm-10 offset-1">
+				      <input type="email" class="form-control col-form-label-sm" id="inputPassword3" placeholder="E-mail" required>
+				    </div>
+				  </div>
+				  <div class="form-group row">
+				    <div class="col-sm-10 offset-1">
+				      <textarea class="form-control col-form-label-sm" name="" id="" cols="10" rows="2" placeholder="Mensagem..." required></textarea>
+				    </div>
+				  </div>
+				  <div class="form-group row">
+				    <div class="col-sm-7 offset-1">
+				      <button type="submit" class="btn btn-md btn-doacao">Enviar</button>
+				    </div>
+				  </div>
+				</form>
+		      </div>
+		      <div class="modal-footer">		      	
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>		        
+		      </div>
+		    </div>
+		  </div>
+		</div>
 		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>		
 		<script src='js/moment.min.js' type="text/javascript" charset="utf-8"></script>			
@@ -75,7 +120,7 @@
 		    }
 		});
 		</script>
-		<script>
+		<script>			
 			$("#telefone").mask("(00) 0000-0000");
 			$("#celular").mask("(00) 0000-00009");
 		</script>

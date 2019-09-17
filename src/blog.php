@@ -57,7 +57,7 @@
 			  	while($dest = $destaque->fetch_object()) {	
 		 	?>	
 			<div class="col-sm-5">
-				<img class="blog-img" src="img/blog/<?php echo $dest->img; ?>">
+				<img class="post-img" src="img/blog/<?php echo $dest->img; ?>">
 			</div><!-- col-sm-5-->
 			<div class="col-sm-5">
 				<p class="card-title headline-sub"><?php echo $dest->categoria; ?> | <?php if($dest->data_publicacao != null) {$timestamp = strtotime($dest->data_publicacao); echo date('d/m/Y', $timestamp);} else {echo 'Sem data';} ?></p>
@@ -70,7 +70,7 @@
 		</div><!-- row-->		
 	</div><!--container-->
 	<div class="container">
-		<div class="row blog-mini">
+		<div class="row blog">
 			<div class="col-sm-2"></div>
 			<div class="col-sm-10">
 				<div class="row">

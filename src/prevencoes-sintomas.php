@@ -8,7 +8,7 @@
 				<img src="img/prevencoesesintomas.png" alt="Psicologia" class="img-thumbnail">
 			</div>
 			<div class="col-sm-12 margin-default">
-				<h1 class="title-page">Prevenção e Sintomas</h1>
+				<h1 class="title-page">Diagnóstico Precoce</h1>
 			</div>			
 			<div class="col-sm-12">
 				<p>Nos tumores da infância e adolescência, até o momento, não existem evidências científicas que deixem claro a associação entre a doença e os fatores ambientais. Logo, a ênfase atual deve ser dada ao diagnóstico precoce e à orientação terapêutica de qualidade.</p>

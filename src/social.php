@@ -21,7 +21,7 @@
 				<div class="col-sm-12 gallery" style="padding: 0;">
 					<a class="example-image-link" href="img/grupo_conv2.jpg" data-lightbox="example-set"><img class="example-image" src="img/grupo_conv2.jpg" width="200" alt=""/></a>				
 				</div><!-- col-sm-12-->
-				<p><strong>Festas Temáticas, aniversariantes do mês e passeios:</strong> as festas e passeios tem como objetivo promover momentos de lazer e integração,  compartilhando experiências diferentes das vividas durante o tratamento.</p>
+				<p><strong>FESTAS TEMÁTICAS, ANIVERSARIANTES DO MÊS E PASSEIOS:</strong> as festas e passeios tem como objetivo promover momentos de lazer e integração,  compartilhando experiências diferentes das vividas durante o tratamento.</p>
 				<p>Na última 5ª feira de cada mês é realizada uma pequena comemoração aqui no GACC para os aniversariantes, com direito a bolo, salgados e presentes.</p>
 				<p>As festas temáticas do calendário são: Páscoa, Festa Julina, Dia das Crianças e Natal. O cardápio é grande e a diversão garantida.</p>
 				<p>Os passeios, por sua vez,  acontecem normalmente uma vez ao ano e tem caráter cultural e de lazer. Já foram visitados locais como: Museu da TAM, Aquário de São Paulo, Catavento Cultural, Zoológico de São Paulo e outros.</p>

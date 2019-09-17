@@ -58,6 +58,20 @@ CREATE TABLE tbl_blog
 ALTER TABLE tbl_blog
 ADD FOREIGN KEY R_5 (id_cat) REFERENCES tbl_blog_cat (id_cat);
 
+/* Eventos */
+
+
+
+CREATE TABLE tbl_eventos
+(
+	id_evento            INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	nome                 VARCHAR(255) NOT NULL,
+	img                  VARCHAR(255) NOT NULL,
+	descricao            TEXT NOT NULL,
+	data_hora            DATETIME NOT NULL,
+	ativo                boolean NOT NULL
+);
+
 
 /* Inserts Usuários */
 insert into tbl_usuarios values (null,'admin',md5('#rl11br01'),1);

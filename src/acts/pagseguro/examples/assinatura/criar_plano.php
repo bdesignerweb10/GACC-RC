@@ -12,16 +12,16 @@ $sandbox = true;
 $pagseguro = new PagSeguroAssinaturas($email, $token, $sandbox);
 
 //Cria um nome para o plano
-$pagseguro->setReferencia('Plano_CWG_01');
+$pagseguro->setReferencia('GACC_01');
 
 //Cria uma descrição para o plano
-$pagseguro->setDescricao('Libera o acesso ao portal por 3 meses. A assinatura voltará a ser cobrada a cada 3 meses.');
+$pagseguro->setDescricao('Doação as crianças do GACC.');
 
 //Valor a ser cobrado a cada renovação
 $pagseguro->setValor(30.00);
 
 //De quanto em quanto tempo será realizado uma nova cobrança (MENSAL, BIMESTRAL, TRIMESTRAL, SEMESTRAL, ANUAL)
-$pagseguro->setPeriodicidade(PagSeguroAssinaturas::TRIMESTRAL);
+$pagseguro->setPeriodicidade(PagSeguroAssinaturas::MENSAL);
 
 //=== Campos Opcionais ===//
 //Após quanto tempo a assinatura irá expirar após a contratação = valor inteiro + (DAYS||MONTHS||YEARS). Exemplo, após 5 anos
