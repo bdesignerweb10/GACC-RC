@@ -58,7 +58,7 @@ CREATE TABLE tbl_blog
 ALTER TABLE tbl_blog
 ADD FOREIGN KEY R_5 (id_cat) REFERENCES tbl_blog_cat (id_cat);
 
-/* Eventos */
+/* Eventos e Galeria*/
 
 
 
@@ -68,9 +68,20 @@ CREATE TABLE tbl_eventos
 	nome                 VARCHAR(255) NOT NULL,
 	img                  VARCHAR(255) NOT NULL,
 	descricao            TEXT NOT NULL,
-	data_hora            DATETIME NOT NULL,
-	ativo                boolean NOT NULL
+	data_hora            DATETIME,
+	ativo                boolean NOT NULL,
+	realizado            boolean NOT NULL
 );
+
+CREATE TABLE tbl_galeria_eventos
+(
+	id_galeria           INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	img                  VARCHAR(255) NOT NULL,	
+    id_evento            INT NOT NULL
+);
+
+ALTER TABLE tbl_galeria_eventos
+ADD FOREIGN KEY R_2 (id_evento) REFERENCES tbl_eventos (id_evento);
 
 
 /* Inserts Usuários */

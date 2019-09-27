@@ -11,7 +11,7 @@
 				<p>Envie uma mensagem e entreremos em contato com você.</p>
 				<div class="card">
   					<div class="card-body">
-						<form>
+						<form action="acts/acts.contato.php" method="post" enctype="multipart/form-data">
 						  <div class="form-row">
 						    <div class="form-group col-md-12">
 						      <label for="nome">Nome</label>
@@ -33,7 +33,7 @@
 						    </div>
 						    <div class="form-group col-md-6">
 						      <label for="celular">Celular</label>
-						      <input type="tel" class="form-control" name="celular" id="celular" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" maxlength="16" placeholder="Celular" required>
+						      <input type="text" class="form-control" name="celular" id="celular" maxlength="16" placeholder="Celular" required>
 						    </div>				    
 						  </div>
 						  <div class="form-row">

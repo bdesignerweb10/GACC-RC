@@ -12,8 +12,8 @@
 			</div>
 			<div class="col-sm-12 gallery">
 				<a class="example-image-link" href="img/transporte/doblo1.jpg" data-lightbox="example-set"><img class="example-image" src="img/transporte/doblo1.jpg" width="250" height="200" alt=""/></a>
-				<a class="example-image-link" href="img/transporte/doblo2.jpg" data-lightbox="example-set"><img class="example-image" src="img/transporte/doblo2.jpg" width="250" height="200" alt=""/></a>
-				<a class="example-image-link" href="img/transporte/doblo3.jpg" data-lightbox="example-set"><img class="example-image" src="img/transporte/doblo3.jpg" width="200" alt=""/></a>				
+				<!--<a class="example-image-link" href="img/transporte/doblo2.jpg" data-lightbox="example-set"><img class="example-image" src="img/transporte/doblo2.jpg" width="250" height="200" alt=""/></a>
+				<a class="example-image-link" href="img/transporte/doblo3.jpg" data-lightbox="example-set"><img class="example-image" src="img/transporte/doblo3.jpg" width="200" alt=""/></a>-->				
 			</div><!-- col-sm-12-->	
 		</div><!-- row -->
 		<div class="sep">
@@ -38,13 +38,13 @@
 					<img src="img/psicologia.png" width="200" alt="Psicologia" class="img-thumbnail">
 				</div>
 				<div class="col-sm-10">
-					<p><strong>PSICOLOGIA:</strong> nossa psicóloga Vaniele Fernanda Foresti realiza atendimentos psicoterapêuticos individuais e em grupo, auxiliando a família no enfrentamento da doença e também na retomada das atividades diárias após o término dos períodos mais difíceis.</p>		
+					<p><strong>PSICOLOGIA:</strong> nossa psicóloga realiza atendimentos psicoterapêuticos individuais e em grupo, auxiliando a família no enfrentamento da doença e também na retomada das atividades diárias após o término dos períodos mais difíceis.</p>		
 				</div>				
 				<div class="col-sm-2">
 					<img src="img/nutricionista.png" width="200" alt="Nutricionista" class="img-thumbnail">	
 				</div>	
 				<div class="col-sm-10">
-					<p><strong>NUTRICIONISTA:</strong> devido ao tratamento, em algumas situações o acompanhamento nutricional se faz necessário e nesses casos nós contamos com nossa parceira Dra. Juliana Chiodini que acompanha e orienta os assistidos e familiares. </p>	
+					<p><strong>NUTRICIONISTA:</strong> devido ao tratamento, em algumas situações o acompanhamento nutricional se faz necessário e nesses casos nós contamos com profissionais parceiras que acompanham e orientam os assistidos e familiares. </p>	
 				</div>		
 				<div class="col-sm-2">
 					<img src="img/optica.png" width="200" alt="Optica" class="img-thumbnail">	

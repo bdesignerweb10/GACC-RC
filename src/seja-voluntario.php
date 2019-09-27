@@ -8,7 +8,7 @@
 				<img src="img/seja-voluntario.png" alt="..." class="img-thumbnail">
 			</div>
 			<div class="col-sm-12 margin-default">
-				<h1 class="title-page">Seja um Voluntário</h1>
+				<h1 class="title-page">Seja Voluntário</h1>
 			</div>
 			<div class="col-sm-12">
 				<p>O voluntariado sempre esteve presente em nossa história. A partir do engajamento e comprometimento de um grupo de voluntárias da Vila Paulista, o GACC foi legalmente constituído, em 26 de julho de 1996 e hoje é referência na luta contra o câncer infanto-juvenil. </p>

@@ -18,7 +18,7 @@
 				<p>Preencha os campos abaixo para receber a proposta detalhada e todos os benefícios.</p>
 				<div class="card">
   					<div class="card-body">
-						<form>
+						<form action="acts/acts.empresas-parceiras.php" method="post" enctype="multipart/form-data">
 						  <div class="form-row">
 						    <div class="form-group col-md-6">
 						      <label for="inputEmail4">Empresa</label>
@@ -40,7 +40,7 @@
 						    </div>
 						    <div class="form-group col-md-6">
 						      <label for="celular">Celular</label>
-						      <input type="tel" class="form-control" name="celular" id="celular" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" maxlength="16" placeholder="Celular" required>
+						      <input type="text" class="form-control" name="celular" id="celular" maxlength="16" placeholder="Celular" required>
 						    </div>				    
 						  </div>
 						  <div class="col-sm-12 btns">				  
@@ -100,7 +100,7 @@
 				<img src="img/parceiros/fly.png" alt="..." class="img-thumbnail">
 			</div>
 			<div class="col-sm-2">
-				<img src="img/parceiros/fricok.png" alt="..." class="img-thumbnail">
+				<img src="img/parceiros/fricock.png" alt="..." class="img-thumbnail">
 			</div>
 			<div class="col-sm-2">
 				<img src="img/parceiros/gaspa.png" alt="..." class="img-thumbnail">
@@ -233,6 +233,57 @@
 			</div>
 			<div class="col-sm-2">
 				<img src="img/parceiros/gml.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/joaocampos.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/maxsurgical.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/metalurgicapicelli.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/movae.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/odoltologiahebling.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/tigre.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/soyamill.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/saolucas.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/potencial.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/pecini.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/unimedrioclaro.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/uniodonto.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/unirc-rcmetalurgica.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/xavier.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/speciale.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/studio-stabelini.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/studio-stabelini.png" alt="..." class="img-thumbnail">
 			</div>
 		</div>
 	</div><!-- container-->

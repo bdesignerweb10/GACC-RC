@@ -2,6 +2,7 @@
 	require_once('header.php');
 	$id = $_GET["id"];
 	$eventos = $conn->query("select * from tbl_eventos where id_evento = $id and ativo = 1 order by id_evento") or trigger_error($conn->error);
+	$galeria= $conn->query("select * from tbl_galeria_eventos where id_evento = $id") or trigger_error($conn->error);
 ?>
 <main>
 	<div class="container">
@@ -21,7 +22,21 @@
 			</div>
 				<?php } ?> 
 			<?php } ?>
-		</div><!-- row-->		
+		</div><!-- row-->
+		<div class="row ajuda">	
+			<div class="col-sm-12">
+				<h1 class="title-page">Confira como foi o evento</h1>
+			</div>
+		<?php								
+			if ($galeria && $galeria->num_rows > 0) {
+		  	while($fotos = $galeria->fetch_object()) {	
+	 	?>		
+		 	<div class="col-sm-3 gallery">
+				<a class="example-image-link" href="img/eventosgaleria/<?php echo $fotos->img; ?>" data-lightbox="example-set"><img class="example-image" src="img/eventosgaleria/<?php echo $fotos->img; ?>" width="250" height="200" alt=""/></a>			
+			</div><!-- col-sm-12-->	
+			<?php } ?> 
+		<?php } ?>	
+		</div>
 	</div><!-- container-->
 </main>
 <?php

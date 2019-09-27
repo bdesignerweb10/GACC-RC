@@ -56,6 +56,9 @@
 	      </li>	
 	      <li class="nav-item">
 	        <a class="nav-link" href="ger-blog.php">Blog</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="ger-eventos.php">Eventos</a>
 	      </li>	      
 	      <li class="nav-item">
 	        <a class="nav-link disabled" href="#">Configurações do site</a>

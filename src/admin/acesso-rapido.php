@@ -7,6 +7,9 @@
     <a class="nav-link" href="ger-noticias.php">Notícias</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link disabled" href="#">Configurações do Site</a>
+    <a class="nav-link" href="ger-blog.php">Blog</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="ger-eventos.php">Eventos</a>
   </li>
 </ul>

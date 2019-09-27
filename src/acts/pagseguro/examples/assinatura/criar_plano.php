@@ -5,6 +5,8 @@
 require dirname(__FILE__)."/../_autoload.class.php";
 use CWG\PagSeguro\PagSeguroAssinaturas;
 
+$valor = $_GET['valor'];
+
 $email = "contato@gacc-rc.org.br";
 $token = "E0245B4263074B3A9E5556881F20670D";
 $sandbox = true;
@@ -18,7 +20,7 @@ $pagseguro->setReferencia('GACC_01');
 $pagseguro->setDescricao('Doação as crianças do GACC.');
 
 //Valor a ser cobrado a cada renovação
-$pagseguro->setValor(30.00);
+$pagseguro->setValor($valor);
 
 //De quanto em quanto tempo será realizado uma nova cobrança (MENSAL, BIMESTRAL, TRIMESTRAL, SEMESTRAL, ANUAL)
 $pagseguro->setPeriodicidade(PagSeguroAssinaturas::MENSAL);
@@ -39,7 +41,8 @@ $pagseguro->setMaximoUsuariosNoPlano(10000);
 //=== Cria o plano ===//
 try {
     $codigoPlano = $pagseguro->criarPlano();
-    echo "O Código do seu plano para realizar assinaturas é: " . $codigoPlano;
+    //echo "O Código do seu plano para realizar assinaturas é: " . $codigoPlano;
+    echo "O Valor do plano é" . $valor;
 } catch (Exception $e) {
     echo "Erro: " . $e->getMessage();
 }

@@ -2,7 +2,7 @@
 	require_once('header.php');
 	$id = $_GET["id"];
 	$noticia = $conn->query("select * from tbl_noticias where ativo = 1 and id_noticia = $id") or trigger_error($conn->error);
-	$noticias = $conn->query("select * from tbl_noticias where ativo = 1 order by id_noticia desc LIMIT 5") or trigger_error($conn->error);
+	$noticias = $conn->query("select * from tbl_noticias where ativo = 1 order by id_noticia desc LIMIT 4") or trigger_error($conn->error);
 ?>
 <main>
 	<div class="container">
@@ -25,7 +25,7 @@
 			<?php } ?>
 			<div class="col-sm-3">
 				<h4 class="title-page">Outras notícias</h4>
-				<div class="card blog-card" style="width: 20rem; height: 329px;">
+				<div class="card blog-card" style="width: 20rem;">
 					<div class="card-body">	
 						<?php								
 							if ($noticias && $noticias->num_rows > 0) {

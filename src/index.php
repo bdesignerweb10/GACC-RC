@@ -2,9 +2,9 @@
 	require_once('header.php');
 	$slides = $conn->query("select nome, link, img from tbl_slides where ativo = 1") or trigger_error($conn->error);
 	$noticias = $conn->query("select * from tbl_noticias where ativo = 1 order by id_noticia desc LIMIT 2") or trigger_error($conn->error);
-	$blog = $conn->query("select * from tbl_blog where ativo = 1 order by id_blog desc LIMIT 4 ") or trigger_error($conn->error);
+	$blog = $conn->query("select * from tbl_blog where ativo = 1 order by id_blog desc LIMIT 3 ") or trigger_error($conn->error);
 
-	$eventos = $conn->query("select * from tbl_eventos where ativo = 1 order by id_evento LIMIT 4 ") or trigger_error($conn->error);
+	$eventos = $conn->query("select * from tbl_eventos where ativo = 1 and realizado = 0 order by id_evento LIMIT 4") or trigger_error($conn->error);
 ?>
 <main>
 	<div class="container-fluid">
@@ -41,8 +41,9 @@
 						<h1>Quem Somos</h1>
 					</div>
 					<div class="col-sm-8 apresentacao">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper, velit non pellentesque facilisis, risus risus dapibus nisl, vitae dignissim arcu massa quis purus. Etiam et diam quam. Fusce facilisis interdum turpis, fermentum consequat eros scelerisque id.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper, velit non pellentesque facilisis, risus risus dapibus nisl, vitae dignissim arcu massa quis purus. Etiam et diam quam. Fusce facilisis interdum turpis, fermentum consequat eros scelerisque id.</p>
+						<p>O GACC é uma Instituição sem fins lucrativos que atua em Rio Claro e microrregião desde 1996 amparando crianças, jovens e adolescentes, de 0 a 24 anos, diagnosticados com câncer ou doenças hematológicas crônicas.</p>
+						<p>Os órgãos responsáveis pela administração da associação são: a Assembleia Geral, Diretoria e Conselho Fiscal. Todos os integrantes não são remunerados seja a que título for. Abaixo desses estão os colaboradores, terceiros e voluntários.
+</p>
 						<a href="gacc.php" class="btn btn-default">Saiba mais</a>
 					</div>
 				</div>
@@ -58,14 +59,16 @@
 						<h1>Como Atuamos</h1>
 					</div>
 					<div class="col-sm-3">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper, velit non pellentesque facilisis, risus risus dapibus nisl, vitae dignissim arcu massa quis purus. Etiam et diam quam. Fusce facilisis interdum turpis, fermentum consequat eros scelerisque id.</p>
+						<p>As atividades realizadas pela Instituição seguem os princípios da legalidade, impessoalidade, moralidade, publicidade, economicidade e da eficiência, sem qualquer discriminação de qualquer natureza.</p>
+						<p>Desenvolvemos projetos e oferecemos serviços no âmbito social, de saúde e pedagógico, além de disponibilizar veículos</p>
 					</div>
 					<div class="col-sm-3">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper, velit non pellentesque facilisis, risus risus dapibus nisl, vitae dignissim arcu massa quis purus. Etiam et diam quam. Fusce facilisis interdum turpis, fermentum consequat eros scelerisque id.</p>
+						<p>próprios para o transporte aos centros oncológicos, sendo este o principal serviço. </p>
+						<p>A qualidade e melhoria do trabalho são possíveis graças ao apoio da comunidade e de empresas locais que confiam na idoneidade e seriedade da Instituição.</p>
 					</div>
 					<div class="col-sm-3">
-						<img src="img/quem-somo1.png" alt="..." class="img-thumbnail" width="120">
-						<img src="img/quem-somos2.png" alt="..." class="img-thumbnail" width="120">
+						<img src="img/suplemento.png" alt="..." class="img-thumbnail" width="120">
+						<img src="img/medico.png" alt="..." class="img-thumbnail" width="120">
 						<a href="como-atuamos.php" class="btn btn-default">Conheça mais</a>
 					</div>
 				</div><!-- row -->
@@ -73,34 +76,32 @@
 		</div><!-- row -->	
 		<div class="row resume">
 			<div class="col-sm-12">
-				<h1 class="title-resume">Em 2019</h1>
+				<h1 class="title-resume" style="margin-bottom: 37px;">Em 2018</h1>
 			</div>			
 			<div class="col-sm-2 icons">
-				<p><i class="fas fa-suitcase"></i></p>
-				<p class="qtd">10</p>
+				<p><img src="img/realizacoes/transporte.png"></p>
+				<p class="qtd">394</p>
 				<p>Viagens</p>
 			</div>
 			<div class="col-sm-2 icons">
-				<p><i class="fas fa-utensils"></i></p>
-				<p class="qtd">10</p>
-				<p>Suplementos <br>
-				Alimentares</p>
+				<p><img src="img/realizacoes/alimentação.png"></p>
+				<p class="qtd">5253</p>
+				<p>Cestas básicas, <br>litros de leite e <br>suplementos</p>
 			</div>
 			<div class="col-sm-2 icons">
-				<p><i class="fas fa-glass-whiskey"></i></p>
-				<p class="qtd">10</p>
-				<p>Litros de Leite</p>
+				<p><img src="img/realizacoes/psicologia.png"></p>
+				<p class="qtd">83</p>
+				<p>Consultas psicoterapêuticas</p>
 			</div>
 			<div class="col-sm-2 icons">
-				<p><i class="fas fa-shopping-basket"></i></p>
-				<p class="qtd">10</p>
-				<p>Cestas Básicas</p>
+				<p><img src="img/realizacoes/odonto.png"></p>
+				<p class="qtd">80</p>
+				<p>Consultas odontológicas</p>
 			</div>
 			<div class="col-sm-2 icons">
-				<p><i class="fas fa-tooth"></i></p>
-				<p class="qtd">10</p>
-				<p>Consultas <br>
-				Odontológicas</p>
+				<p><img src="img/realizacoes/musica.png"></p>
+				<p class="qtd">543</p>
+				<p>Aulas de música</p>
 			</div>
 		</div> <!-- row -->
 		<div class="row participe">
@@ -153,7 +154,7 @@
 				<div class="col-sm-12">
 					<h2 class="title-blog">Fique Informado</h2>
 					<p class="border-blog"></p>
-					<div class="card blog-card" style="width: 20rem; height: 329px;">
+					<div class="card blog-card" style="width: 20rem; height: 444px;">
 						<div class="card-body">	
 							<?php								
 								if ($blog && $blog->num_rows > 0) {
@@ -234,7 +235,7 @@
 				<img src="img/parceiros/fly.png" alt="..." class="img-thumbnail">
 			</div>
 			<div class="col-sm-2">
-				<img src="img/parceiros/fricok.png" alt="..." class="img-thumbnail">
+				<img src="img/parceiros/fricock.png" alt="..." class="img-thumbnail">
 			</div>
 			<div class="col-sm-2">
 				<img src="img/parceiros/gaspa.png" alt="..." class="img-thumbnail">
@@ -367,6 +368,54 @@
 			</div>
 			<div class="col-sm-2">
 				<img src="img/parceiros/gml.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/joaocampos.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/maxsurgical.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/metalurgicapicelli.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/movae.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/odoltologiahebling.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/tigre.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/soyamill.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/saolucas.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/potencial.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/pecini.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/unimedrioclaro.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/uniodonto.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/unirc-rcmetalurgica.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/xavier.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/speciale.png" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-sm-2">
+				<img src="img/parceiros/studio-stabelini.png" alt="..." class="img-thumbnail">
 			</div>
 		</div>
 	</div>

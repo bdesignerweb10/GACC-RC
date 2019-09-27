@@ -31,12 +31,12 @@
 	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">	
 </head>
-<body class="thanks">
+<body style="width: 100%; height: 100%;" class="thanks">
 	<div class="container-fluid">
 		<div class="row obrigado">
 			<div class="col-sm-8"></div>
 			<div class="col-sm-4">
-				<h2>Obrigado por confiar em um futuro de oportunidades às crianças assistidas pelo GACC. <br />Você faz a diferença!</h2>
+				<!--<h2>Obrigado por confiar em um futuro de oportunidades às crianças assistidas pelo GACC. <br />Você faz a diferença!</h2>-->
 				<a href="index.php" class="btn btn-primary">Voltar para o site</a>
 			</div>
 		</div>

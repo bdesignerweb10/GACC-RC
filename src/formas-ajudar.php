@@ -17,7 +17,7 @@
 				<p><strong>DOAÇÃO DE SUPLEMENTOS ALIMENTARES:</strong>
 				Devido à falta de apetite e perda de peso, algumas crianças, sob orientação médica, utilizam suplementos alimentares. Fazemos uso dos seguintes suplementos: Pediasure, Nutren, Sustagen e Ensure.</p>
 				<p><strong>DOAÇÃO DE BENS MATERIAIS:</strong>
-				Todo mês nós realizamos um bazar em nossa sede. Vendemos roupas, acessórios, calçados, brinquedos, eletroeletrônicos e eletro portáteis. Aceitamos a doação desses itens em bom estado. Se preferir, podemos retirar sua doação. Gentileza solicitar a retirada pelo telefone: <strong>(19) 3534.5612</strong>.</p>
+				Todo mês nós realizamos um bazar em nossa sede. Vendemos roupas, acessórios, calçados, brinquedos, eletroeletrônicos e eletro portáteis. Aceitamos a doação desses itens em bom estado.</p>
 				<p class="text-info">OBS: por questão de espaço, não coletamos doações de itens de grande porte. Pedimos a compreensão de todos.</p>
 				<p><strong>GACC EM FESTA</strong>
 				Ganhar presentes é muito bom, mas poder compartilhá-los e ajudar outras pessoas é melhor ainda!
@@ -28,7 +28,7 @@ Aniversário, casamento, bodas, enfim, todo evento é uma oportunidade para pres
 				Pensou em alguma iniciativa para nossa Instituição? Maravilha! Conte-nos mais sobre sua ideia.</p>
 				<div class="card">
   					<div class="card-body">
-						<form>
+						<form action="acts/acts.formas-ajudar.php" method="post" enctype="multipart/form-data">
 						  <div class="form-row">
 						    <div class="form-group col-md-6">
 						      <label for="nome">Nome</label>
@@ -46,7 +46,7 @@ Aniversário, casamento, bodas, enfim, todo evento é uma oportunidade para pres
 						    </div>
 						    <div class="form-group col-md-6">
 						      <label for="celular">Celular</label>
-						      <input type="tel" class="form-control" name="celular" id="celular" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" maxlength="16" placeholder="Celular" required>
+						      <input type="text" class="form-control" name="celular" id="celular" maxlength="16" placeholder="Celular" required>
 						    </div>				    
 						  </div>
 						  <div class="form-row">

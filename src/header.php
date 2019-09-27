@@ -46,7 +46,7 @@
 					<p>
 						<a href="https://www.facebook.com/gaccrioclaro/" target="_blank"><i class="fab fa-facebook-square"></i></a>
 						<a href="https://www.instagram.com/gaccrc/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i></a>
-						<a href=""><i class="fab fa-youtube"></i></a>						
+						<a href="https://www.youtube.com/user/gaccrioclarosp" target="_blank"><i class="fab fa-youtube"></i></a>						
 					</p>
 				</div>
 			</div><!-- row -->
